@@ -1,0 +1,12 @@
+{
+  "name": "recycle4research",
+  "version": "1.0.0",
+  "description": "A nonprofit webapp for Recycle4Research - Glass recycling for medical research",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 3000 -o"
+  },
+  "keywords": ["nonprofit", "recycling", "glass", "research", "charity"],
+  "author": "Juliet Sheehan",
+  "license": "MIT"
+}

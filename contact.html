@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Recycle4Research</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Floating bubbles background -->
+    <div class="bubbles-container">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Recycle4Research</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="impact.html" class="nav-link">Impact</a></li>
+                <li><a href="process.html" class="nav-link">Process</a></li>
+                <li><a href="charity.html" class="nav-link">Charity</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title fade-in">Get In Touch</h1>
+            <p class="page-subtitle fade-in">We'd love to hear from you!</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info slide-up">
+                    <h2>Contact Our Team</h2>
+                    <p>Have questions about our program? Want to sign up? Need help with your pickup? We're here to help!</p>
+
+                    <div class="contact-card">
+                        <div class="contact-person">
+                            <h3>Juliet Sheehan</h3>
+                            <p class="contact-role">Founder</p>
+                            <div class="contact-details">
+                                <p>
+                                    <span class="contact-icon">📞</span>
+                                    <a href="tel:5715651672">(571) 565-1672</a>
+                                </p>
+                                <p>
+                                    <span class="contact-icon">✉️</span>
+                                    <a href="mailto:jsshe.us.1717@gmail.com">jsshe.us.1717@gmail.com</a>
+                                </p>
+                            </div>
+                            <p class="contact-description">
+                                For general inquiries, signup questions, donation information, and program details.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card" style="animation-delay: 0.2s">
+                        <div class="contact-person">
+                            <h3>Evelyn Sheehan</h3>
+                            <p class="contact-role">Social Media Manager</p>
+                            <div class="contact-details">
+                                <p>
+                                    <span class="contact-icon">📞</span>
+                                    <a href="tel:5715651975">(571) 565-1975</a>
+                                </p>
+                            </div>
+                            <p class="contact-description">
+                                For social media inquiries, community updates, and sharing your recycling story.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="service-area bounce-in">
+                        <h3>Service Area</h3>
+                        <p>We currently serve the McLean MCNA neighborhood in Fairfax County, Virginia. Interested in bringing Recycle4Research to your area? Contact us to discuss expansion possibilities!</p>
+                    </div>
+                </div>
+
+                <div class="contact-form-container slide-up" style="animation-delay: 0.3s">
+                    <h2>Send Us a Message</h2>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="contact-name">Name *</label>
+                            <input type="text" id="contact-name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-email">Email *</label>
+                            <input type="email" id="contact-email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-phone">Phone</label>
+                            <input type="tel" id="contact-phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a topic...</option>
+                                <option value="signup">Sign Up for Service</option>
+                                <option value="pickup">Pickup Question</option>
+                                <option value="donation">Donation Information</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Tell us how we can help..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-large">Send Message</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="faq-section">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <div class="faq-grid">
+                    <div class="faq-card bounce-in" style="animation-delay: 0.1s">
+                        <h3>How often do you pick up?</h3>
+                        <p>We typically pick up every other week, occasionally every three weeks. You'll receive reminders before each pickup.</p>
+                    </div>
+                    <div class="faq-card bounce-in">
+                        <h3>i cant think of any other questions</h3>
+                        <p>:p</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Recycle4Research. All rights reserved.</p>
+            <p>Making a difference, one bottle at a time.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

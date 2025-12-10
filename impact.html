@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impact - Recycle4Research</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Floating bubbles background -->
+    <div class="bubbles-container">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Recycle4Research</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="impact.html" class="nav-link active">Impact</a></li>
+                <li><a href="process.html" class="nav-link">Process</a></li>
+                <li><a href="charity.html" class="nav-link">Charity</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title fade-in">Our Impact</h1>
+            <p class="page-subtitle fade-in">Real-time tracking of our environmental and research contributions</p>
+        </div>
+    </section>
+
+    <!-- Impact Stats -->
+    <section class="impact-section">
+        <div class="container">
+            <div class="impact-grid">
+                <div class="impact-card large-card bounce-in">
+                    <div class="impact-icon">♻️</div>
+                    <h2 class="impact-title">Total Glass Recycled</h2>
+                    <div class="impact-number" id="totalGlass">727,674</div>
+                    <p class="impact-unit">pounds</p>
+                    <p class="impact-description">Updated after every pickup</p>
+                </div>
+
+                <div class="impact-card bounce-in" style="animation-delay: 0.1s">
+                    <div class="impact-icon-small">📊</div>
+                    <h3 class="impact-subtitle">Average Per Run</h3>
+                    <div class="impact-number-small" id="avgGlass">121.279</div>
+                    <p class="impact-unit-small">pounds</p>
+                </div>
+
+                <div class="impact-card bounce-in" style="animation-delay: 0.2s">
+                    <div class="impact-icon-small">🗓️</div>
+                    <h3 class="impact-subtitle">Total Pickups</h3>
+                    <div class="impact-number-small" id="totalPickups">6</div>
+                    <p class="impact-unit-small">runs completed</p>
+                </div>
+
+                <div class="impact-card bounce-in" style="animation-delay: 0.3s">
+                    <div class="impact-icon-small">🌍</div>
+                    <h3 class="impact-subtitle">CO₂ Saved</h3>
+                    <div class="impact-number-small" id="co2Saved">1,455</div>
+                    <p class="impact-unit-small">pounds</p>
+                </div>
+
+                <div class="impact-card bounce-in" style="animation-delay: 0.4s">
+                    <div class="impact-icon-small">🔬</div>
+                    <h3 class="impact-subtitle">Research Donations</h3>
+                    <div class="impact-number-small">$2,800+</div>
+                    <p class="impact-unit-small">contributed</p>
+                </div>
+            </div>
+
+            <div class="progress-section slide-up">
+                <h2 class="section-title">Our Progress</h2>
+                <div class="progress-card">
+                    <div class="progress-header">
+                        <h3>Next Milestone: 1,000 lbs</h3>
+                        <span class="progress-percentage" id="milestonePercent">72.8%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill" style="width: 72.8%"></div>
+                    </div>
+                    <p class="progress-text">
+                        <span id="remainingGlass">272.326</span> pounds to go!
+                    </p>
+                </div>
+            </div>
+
+            <div class="info-box bounce-in">
+                <h3>Environmental Impact</h3>
+                <p>Every pound of glass recycled saves approximately 2 pounds of CO₂ emissions and reduces landfill waste. By recycling glass, we're not only supporting medical research but also protecting our planet for future generations.</p>
+                <p>Glass can be recycled endlessly without loss of quality, making it one of the most sustainable materials. Your participation makes a real difference!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Recycle4Research. All rights reserved.</p>
+            <p>Making a difference, one bottle at a time.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

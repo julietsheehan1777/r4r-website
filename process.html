@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Process - Recycle4Research</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Floating bubbles background -->
+    <div class="bubbles-container">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Recycle4Research</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="impact.html" class="nav-link">Impact</a></li>
+                <li><a href="process.html" class="nav-link active">Process</a></li>
+                <li><a href="charity.html" class="nav-link">Charity</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title fade-in">How to Participate</h1>
+            <p class="page-subtitle fade-in">Join our glass recycling program in 5 simple steps</p>
+        </div>
+    </section>
+
+    <!-- Process Content -->
+    <section class="process-section">
+        <div class="container">
+            <div class="schedule-box bounce-in">
+                <h2>📅 Pickup Schedule</h2>
+                <p class="schedule-text">We typically recycle glass every other week, with the occasional pickup every three weeks. You'll be notified of exact pickup dates when you sign up.</p>
+            </div>
+
+            <h2 class="section-title">Steps to Get Started</h2>
+
+            <div class="process-steps">
+                <div class="process-step slide-up" style="animation-delay: 0.1s">
+                    <div class="step-icon">1</div>
+                    <div class="step-content">
+                        <h3>Sign Up Through Our Form</h3>
+                        <p>Fill out our simple registration form to get started. We'll collect your address and contact information to coordinate bin delivery and pickups.</p>
+                        <a href="#signup-form" class="btn btn-primary">Sign Up Now</a>
+                    </div>
+                </div>
+
+                <div class="process-step slide-up" style="animation-delay: 0.2s">
+                    <div class="step-icon">2</div>
+                    <div class="step-content">
+                        <h3>Pay the $25 Bin Fee</h3>
+                        <p>A one-time fee of $25 covers the cost of your recycling bin. This bin is yours to keep and use for all future pickups.</p>
+                        <div class="payment-info">
+                            <p><strong>Payment methods:</strong> Venmo, Zelle, or Cash</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="process-step slide-up" style="animation-delay: 0.3s">
+                    <div class="step-icon">3</div>
+                    <div class="step-content">
+                        <h3>Receive Your Bin</h3>
+                        <p>We'll drop off your glass recycling bin at your house. The bin will be clearly labeled with recycling criteria.</p>
+                    </div>
+                </div>
+
+                <div class="process-step slide-up" style="animation-delay: 0.4s">
+                    <div class="step-icon">4</div>
+                    <div class="step-content">
+                        <h3>Collect Glass</h3>
+                        <p>Fill your bin with used glass that meets our recycling criteria. See below for what we accept.</p>
+                        <div class="recycling-criteria">
+                            <h4>✅ We Accept:</h4>
+                            <ul>
+                                <li>Glass bottles (clear, green, brown)</li>
+                                <li>Glass jars</li>
+                                <li>Food containers made of glass</li>
+                                <li>Wine and beer bottles</li>
+                            </ul>
+                            <h4>❌ We Do NOT Accept:</h4>
+                            <ul>
+                                <li>Window glass</li>
+                                <li>Mirror glass</li>
+                                <li>Light bulbs</li>
+                                <li>Ceramics or pottery</li>
+                                <li>Crystal</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="process-step slide-up" style="animation-delay: 0.5s">
+                    <div class="step-icon">5</div>
+                    <div class="step-content">
+                        <h3>Leave Bin Outside on Pickup Days</h3>
+                        <p>On designated pickup days (usually every other week unless directed otherwise), leave the bin outside your house in a visible area for us to collect. We'll empty it and return it to your doorstep.</p>
+                    </div>
+                </div>
+
+                <div class="process-step slide-up" style="animation-delay: 0.6s">
+                    <div class="step-icon">💚</div>
+                    <div class="step-content">
+                        <h3>Donate to Research!America</h3>
+                        <p>Support medical research by making a donation. We do not require a specific amount, but the recommended donation is <strong>$120 per year</strong>.</p>
+                        <p class="donation-note">Your donation goes directly to Research!America to fund vital medical research and global health improvements.</p>
+                        <a href="charity.html" class="btn btn-secondary">Learn About Research!America</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Signup Form -->
+            <div class="signup-section" id="signup-form">
+                <h2 class="section-title">Sign Up Today</h2>
+                <div class="form-card bounce-in">
+                    <form class="signup-form">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Street Address *</label>
+                            <input type="text" id="address" name="address" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="city">City *</label>
+                                <input type="text" id="city" name="city" value="McLean" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="zip">ZIP Code *</label>
+                                <input type="text" id="zip" name="zip" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="notes">Special Instructions (Optional)</label>
+                            <textarea id="notes" name="notes" rows="3" placeholder="Any special instructions for bin delivery or pickup?"></textarea>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="agree" name="agree" required>
+                            <label for="agree">I agree to participate in the program and understand the $25 bin fee and recommended $120 annual donation.</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-large">Submit Application</button>
+                    </form>
+                    <p class="form-note">* We'll contact you within 48 hours to confirm your signup and schedule bin delivery.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Recycle4Research. All rights reserved.</p>
+            <p>Making a difference, one bottle at a time.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
